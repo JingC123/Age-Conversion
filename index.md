@@ -17,6 +17,13 @@ In this project, we try to simulate the function of one fashionable app: FaceApp
 
 **Dataset**: We use the dataset in Kaggle: facial age (An image dataset consisting human faces with ages), images of 20 - 30 year old faces are taken as dataset A and 70 - 80 year sold faces as dataset B, at the same time, the images of the A and B datasets are not in a one-to-one correspondence. 80% of each dataset is a training set and the remainder is a testing set.
 (Link:https://www.kaggle.com/frabbisw/facial-age)
+
+### Methodology
+
+We implemented a CycleGAN program in Jupyter Notebook, and then trained and tested our model in Google Colab. In our model, we used two generators and two discriminators. One generator transforms data from A to B. Then discriminator B compares the generated data with sample data to get GAN loss and identity loss. The generated B is then used to generate A by the other generator. The generated A is also evaluated by a discriminator. A cycle consistency loss is also recorded in the cycle process. The model is trained in this cycle process of generating and discriminating A and B.
+  <div align=center><img width="650" height="200" src="https://github.com/JingC123/Picture-Style-Transfer/blob/main/imgs/cycle_gan.png"/></div>
+
+
 ```markdown
 Syntax highlighted code block
 
