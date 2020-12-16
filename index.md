@@ -1,9 +1,5 @@
 ## Implementing CycleGAN for Age Conversion
 
-You can use the [editor on GitHub](https://github.com/JingC123/Picture-Style-Transfer/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
 ### Abstract
 
 In this project, our goal is to learn an unpaired image-to-image translation and predict what people look like decades later or before. Our model contains two mappings F: A->B and G: B->A. Given an image from domain A, we introduce a forward cycle consistency loss: A ≈ G(F(A)) and the other way around. 
