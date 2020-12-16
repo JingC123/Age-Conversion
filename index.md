@@ -4,10 +4,23 @@ You can use the [editor on GitHub](https://github.com/JingC123/Picture-Style-Tra
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+### Abstract
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+In this project, our goal is to learn an unpaired image-to-image translation and predict what people look like decades later or before. Our model contains two mappings F: A->B and G: B->A. Given an image from domain A, we introduce a forward cycle consistency loss: A ≈ G(F(A)) and the other way around. 
 
+### Problem statement
+
+In this project, we try to simulate the function of one fashionable app: FaceApp, people put their original selfie and change their age to predict their previous or future apparence. GANs were mostly implemented to achieve this purpose in the past, and can only speculate in one direction, from young to old or from old to young, so we use the GAN-based architecture: CycleGAN to realize the function that can predict in two directions, from young to old and old to young.
+
+### Related work
+
+**Cycle-Consistent Adversarial networks (CycleGANs)**: CycleGANs are neural networks that involve the automatic training of image-to-image translation models without paired input/output. The models are trained using a collection of images from the source and target domain that don’t need to be one-to-one correspondence any way.
+
+**Generative adversarial networks (GANs)**: GANs are neural networks that are trained in an adversarial manner to solve image-to-image translation problems, such as style transfer, since they depend on the unconstrained input set and output set rather than specific corresponding input/output pairs. A GAN has two parts in it: generator that generates images and discriminator that classify the real and fake images and the generator learns to deceive the discriminator and makes the discriminator unable to learn to classify properly.
+[Image](
+
+**Dataset**: We use the dataset in Kaggle: facial age (An image dataset consisting human faces with ages), images of 20 - 30 year old faces are taken as dataset A and 70 - 80 year sold faces as dataset B, at the same time, the images of the A and B datasets are not in a one-to-one correspondence. 80% of each dataset is a training set and the remainder is a testing set.
+(Link:https://www.kaggle.com/frabbisw/facial-age)
 ```markdown
 Syntax highlighted code block
 
