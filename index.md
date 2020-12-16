@@ -23,6 +23,31 @@ In this project, we try to simulate the function of one fashionable app: FaceApp
 We implemented a CycleGAN program in Jupyter Notebook, and then trained and tested our model in Google Colab. In our model, we used two generators and two discriminators. One generator transforms data from A to B. Then discriminator B compares the generated data with sample data to get GAN loss and identity loss. The generated B is then used to generate A by the other generator. The generated A is also evaluated by a discriminator. A cycle consistency loss is also recorded in the cycle process. The model is trained in this cycle process of generating and discriminating A and B.
   <div align=center><img width="650" height="200" src="https://github.com/JingC123/Picture-Style-Transfer/blob/main/imgs/cycle_gan.png"/></div>
 
+### Experiments/evaluation
+
+We do two experiments, one is reverting from young to old, and the other is reverting from old to young. We evaluate the results with identity loss, Gan loss, cycle consistency loss and then add them together.
+
+### Results
+
+### Examples
+
+From old to young:
+
+In the “youngify” process, we noticed that wrinkles are lightened and the skin looks better. In many cases, whitened hairs are also turned back to darker colors.
+
+From young to old:
+
+The “oldify” process is like a reverse to the previous. Wrinkles are added to the face. Hairs are whitened. The skin also looks a little more pale. We even noticed that the teeth in the pictures are also turned into a more aged condition.
+
+
+### Results
+
+We trained the model and got the generator loss near 3, the generator identity loss near 0.5, the cycle loss near 1, and discriminator loss near 0.2. The GAN loss is increasing during the training, while the discriminator loss shows a linear reduction and all other losses shows an exponential reduction.
+We used the trained model to generate several testing pictures. Some of them showed good results of age shifting, which is described in the examples section.
+
+  <div align=center><img width="400" height="300" src="https://github.com/JingC123/Picture-Style-Transfer/blob/main/imgs/loss_G.png"/></div>
+  
+  <div align=center><img width="400" height="300" src="https://github.com/JingC123/Picture-Style-Transfer/blob/main/imgs/loss_G_identity.png"/></div>
 
 ```markdown
 Syntax highlighted code block
