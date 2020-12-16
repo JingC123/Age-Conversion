@@ -2,7 +2,7 @@
 In this project, we try to simulate the function of one fashionable app: FaceApp, people put their original selfie and change their age to predict their previous or future apparence. We use  CycleGAN to realize the function that can predict in two directions, from young to old and old to young.
 
 ## Website
-add link: [Age Conversion](https://jingc123.github.io/Age-Conversion/)
+[Age Conversion](https://jingc123.github.io/Age-Conversion/)
 ### How to use
 Run notebook [] on colab.
 
