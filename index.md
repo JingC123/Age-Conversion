@@ -76,7 +76,7 @@ The “oldify” process is like a reverse to the previous. Wrinkles are added t
 
 ### Codes
 
-[https://colab.research.google.com/drive/1DG3AS0c0QJbEJI2Sr1HwDxKYYDdYoTdp?usp=sharing](https://colab.research.google.com/drive/1DG3AS0c0QJbEJI2Sr1HwDxKYYDdYoTdp?usp=sharing)
+[https://github.com/JingC123/Age-Conversion/blob/main/model.ipynb](https://github.com/JingC123/Age-Conversion/blob/main/model.ipynb)
 
 ### References
 [A clean and readable Pytorch implementation of CycleGAN](https://github.com/aitorzip/PyTorch-CycleGAN)
