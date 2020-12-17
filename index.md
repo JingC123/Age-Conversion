@@ -46,14 +46,19 @@ We trained the model and got the generator loss near 3, the generator identity l
 We used the trained model to generate several testing pictures. Some of them showed good results of age shifting, which is described in the examples section.
 
 
-  <p float="half">
+<p float="center">
   <img width="400" height="300" src="https://github.com/JingC123/Picture-Style-Transfer/blob/main/imgs/loss_G.png"/>
   <img width="400" height="300" src="https://github.com/JingC123/Picture-Style-Transfer/blob/main/imgs/loss_G_identity.png"/>
 </p>
   
-  <figure class="half"><img width="400" height="300" src="https://github.com/JingC123/Picture-Style-Transfer/blob/main/imgs/loss_G_GAN.png"/><img width="400" height="300" src="https://github.com/JingC123/Picture-Style-Transfer/blob/main/imgs/loss_G_cycle.png"/></figure>
+<p float="center">
+  <img width="400" height="300" src="https://github.com/JingC123/Picture-Style-Transfer/blob/main/imgs/loss_G_GAN.png"/>
+  <img width="400" height="300" src="https://github.com/JingC123/Picture-Style-Transfer/blob/main/imgs/loss_G_cycle.png"/>
+</p>
   
-  <div align=center><img width="400" height="300" src="https://github.com/JingC123/Picture-Style-Transfer/blob/main/imgs/loss_D.png"/></div>
+<p float="center">
+  <img width="400" height="300" src="https://github.com/JingC123/Picture-Style-Transfer/blob/main/imgs/loss_D.png"/>
+</p>
 
 ```markdown
 Syntax highlighted code block
