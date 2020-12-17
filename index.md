@@ -13,7 +13,7 @@ In this project, we try to simulate the function of one fashionable app: FaceApp
 **Cycle-Consistent Adversarial networks (CycleGANs)**: CycleGANs are neural networks that involve the automatic training of image-to-image translation models without paired input/output. The models are trained using a collection of images from the source and target domain that don’t need to be one-to-one correspondence any way.
 
 **Generative adversarial networks (GANs)**: GANs are neural networks that are trained in an adversarial manner to solve image-to-image translation problems, such as style transfer, since they depend on the unconstrained input set and output set rather than specific corresponding input/output pairs. A GAN has two parts in it: generator that generates images and discriminator that classify the real and fake images and the generator learns to deceive the discriminator and makes the discriminator unable to learn to classify properly.
-  <div align=center><img width="650" src="/Age-Conversion/imgs/gan.png"/></div>
+  <div align=center><img width="650" src="/imgs/gan.png"/></div>
 
 **Dataset**: We use the dataset in Kaggle: facial age (An image dataset consisting human faces with ages), images of 20 - 30 year old faces are taken as dataset A and 70 - 80 year sold faces as dataset B, at the same time, the images of the A and B datasets are not in a one-to-one correspondence. 80% of each dataset is a training set and the remainder is a testing set.
 (Link:https://www.kaggle.com/frabbisw/facial-age)
@@ -44,33 +44,33 @@ We used the trained model to generate several testing pictures. Some of them sho
 </p>
   
 <p align="center">
-  <img width="400" src="https://github.com/JingC123/Age-Conversion/blob/main/imgs/loss_D.png"/>
+  <img width="400" src="/imgs/loss_D.png"/>
 </p>
 
 ### Examples
 
 From old to young:
 <p align="center">
-  <img width="200" src="https://github.com/JingC123/Age-Conversion/blob/main/imgs/o2y_1o.png"/>
-  <img width="200" src="https://github.com/JingC123/Age-Conversion/blob/main/imgs/o2y_1y.png"/>
+  <img width="200" src="/imgs/o2y_1o.png"/>
+  <img width="200" src="/imgs/o2y_1y.png"/>
 </p>
 
 <p align="center">
-  <img width="200" src="https://github.com/JingC123/Age-Conversion/blob/main/imgs/o2y_2o.png"/>
-  <img width="200" src="https://github.com/JingC123/Age-Conversion/blob/main/imgs/o2y_2y.png"/>
+  <img width="200" src="/imgs/o2y_2o.png"/>
+  <img width="200" src="/imgs/o2y_2y.png"/>
 </p>
 
 In the “youngify” process, we noticed that wrinkles are lightened and the skin looks better. In many cases, whitened hairs are also turned back to darker colors.
 
 From young to old:
 <p align="center">
-  <img width="200" height="200" src="https://github.com/JingC123/Age-Conversion/blob/main/imgs/y2o_1y.png"/>
-  <img width="200" height="200" src="https://github.com/JingC123/Age-Conversion/blob/main/imgs/y2o_1o.png"/>
+  <img width="200" height="200" src="/imgs/y2o_1y.png"/>
+  <img width="200" height="200" src="/imgs/y2o_1o.png"/>
 </p>
 
 <p align="center">
-  <img width="200" height="200" src="https://github.com/JingC123/Age-Conversion/blob/main/imgs/y2o_2y.png"/>
-  <img width="200" height="200" src="https://github.com/JingC123/Age-Conversion/blob/main/imgs/y2o_2o.png"/>
+  <img width="200" height="200" src="/imgs/y2o_2y.png"/>
+  <img width="200" height="200" src="/imgs/y2o_2o.png"/>
 </p>
 
 The “oldify” process is like a reverse to the previous. Wrinkles are added to the face. Hairs are whitened. The skin also looks a little more pale. We even noticed that the teeth in the pictures are also turned into a more aged condition.
