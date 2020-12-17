@@ -48,13 +48,25 @@ From old to young
 
 From yound to old
 
-<div align=center><img src="https://github.com/JingC123/Age-Conversion/blob/main/imgs/y2o_1o.png/" width="200px" /><img src="https://github.com/JingC123/Age-Conversion/blob/main/imgs/y2o_1y.png/" width="200px" /></div>
+<div align=center><img src="https://github.com/JingC123/Age-Conversion/blob/main/imgs/y2o_1o.png/" width="200px" /> <img src="https://github.com/JingC123/Age-Conversion/blob/main/imgs/y2o_1y.png/" width="200px" /></div>
 
-<div align=center><img src="https://github.com/JingC123/Age-Conversion/blob/main/imgs/y2o_2o.png/" width="200px" /><img src="https://github.com/JingC123/Age-Conversion/blob/main/imgs/y20_2y.png/" width="200px" /></div>
-
-
+<div align=center><img src="https://github.com/JingC123/Age-Conversion/blob/main/imgs/y2o_2o.png/" width="200px" /><img src="https://github.com/JingC123/Age-Conversion/blob/main/imgs/y2o_2y.png/" width="200px" /></div>
 
 
+
+<figure class="half">
+  <table>
+    <tr>
+      <td>
+        <img style="width:400px;" src="https://github.com/JingC123/Age-Conversion/blob/main/imgs/y2o_1o.png/">
+      </td>
+      <td>
+        <img style="width:600px;" src="https://github.com/JingC123/Age-Conversion/blob/main/imgs/y2o_1y.png/.png">
+      </td>
+    </tr>
+  </table>
+  <figcaption>Caption describing these two images.</figcaption>
+</figure>
 
 add link:  [name](link)
 
