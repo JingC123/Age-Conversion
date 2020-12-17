@@ -46,8 +46,10 @@ We trained the model and got the generator loss near 3, the generator identity l
 We used the trained model to generate several testing pictures. Some of them showed good results of age shifting, which is described in the examples section.
 
   <div align=center><img width="400" height="300" src="https://github.com/JingC123/Picture-Style-Transfer/blob/main/imgs/loss_G.png"/></div>
-  
   <div align=center><img width="400" height="300" src="https://github.com/JingC123/Picture-Style-Transfer/blob/main/imgs/loss_G_identity.png"/></div>
+  <div align=center><img width="400" height="300" src="https://github.com/JingC123/Picture-Style-Transfer/blob/main/imgs/loss_G_GAN.png"/></div>
+  <div align=center><img width="400" height="300" src="https://github.com/JingC123/Picture-Style-Transfer/blob/main/imgs/loss_G_cycle.png"/></div>
+  <div align=center><img width="400" height="300" src="https://github.com/JingC123/Picture-Style-Transfer/blob/main/imgs/loss_D.png"/></div>
 
 ```markdown
 Syntax highlighted code block
