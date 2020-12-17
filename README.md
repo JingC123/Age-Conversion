@@ -19,6 +19,7 @@ We use the dataset in Kaggle: [**facial age**](https://www.kaggle.com/frabbisw/f
 ### Results
 
 <div align=center>
+ <p align = center> From old to young </p>
 <figure class="half">
   <table>
     <tr>
@@ -38,11 +39,11 @@ We use the dataset in Kaggle: [**facial age**](https://www.kaggle.com/frabbisw/f
       </td>
     </tr>
   </table>
-  <figcaption>From old to young.</figcaption>
 </figure>
 </div>
 
 <div align=center>
+  <p align = center> From young to old. </p>
 <figure class="half">
   <table >
     <tr>
@@ -62,7 +63,6 @@ We use the dataset in Kaggle: [**facial age**](https://www.kaggle.com/frabbisw/f
       </td>
     </tr>
   </table>
-  <figcaption>From young to old.</figcaption>
 </figure>
 </div>
 
