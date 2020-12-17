@@ -4,7 +4,7 @@ In this project, we try to simulate the function of one fashionable app: FaceApp
 ### Website
 [Age Conversion](https://jingc123.github.io/Age-Conversion/)
 ### How to use
-Run [notebook](https://colab.research.google.com/drive/1DG3AS0c0QJbEJI2Sr1HwDxKYYDdYoTdp?usp=sharing) on colab.
+Run [notebook](model.ipynb) on colab.
 
 ### Model
 Our cycleGAN model contains two mappings F: A->B and G: B->A. Given an image from domain A, we introduce a forward cycle consistency loss: A ≈ G(F(A)) and the other way around.
