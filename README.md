@@ -1,7 +1,7 @@
 ##  Age conversion
 In this project, we try to simulate the function of one fashionable app: FaceApp, people put their original selfie and change their age to predict their previous or future apparence. We use  CycleGAN to realize the function that can predict in two directions, from young to old and old to young.
 
-## Website
+### Website
 [Age Conversion](https://jingc123.github.io/Age-Conversion/)
 ### How to use
 Run notebook [] on colab.
@@ -19,7 +19,7 @@ We use the dataset in Kaggle: [**facial age**](https://www.kaggle.com/frabbisw/f
 ### Results
 
 From old to young
-
+<div align=center>
 <figure class="half">
   <table>
     <tr>
@@ -39,9 +39,8 @@ From old to young
       </td>
     </tr>
   </table>
-  <figcaption>Caption describing these two images.</figcaption>
 </figure>
-
+</div>
 
 
 From yound to old
@@ -65,7 +64,6 @@ From yound to old
       </td>
     </tr>
   </table>
-  <figcaption>Caption describing these two images.</figcaption>
 </figure>
 
 
