@@ -42,31 +42,58 @@ We use the dataset in Kaggle: [**facial age**](https://www.kaggle.com/frabbisw/f
 ### Results
 
 From old to young
-<div align=center><img src="https://github.com/JingC123/Age-Conversion/blob/main/imgs/o2y_1o.png/" width="200px" /><img src="https://github.com/JingC123/Age-Conversion/blob/main/imgs/o2y_1y.png/" width="200px" /></div>
-
-<div align=center><img src="https://github.com/JingC123/Age-Conversion/blob/main/imgs/o2y_2o.png/" width="200px" /><img src="https://github.com/JingC123/Age-Conversion/blob/main/imgs/o2y_2y.png/" width="200px" /></div>
-
-From yound to old
-
-<div align=center><img src="https://github.com/JingC123/Age-Conversion/blob/main/imgs/y2o_1o.png/" width="200px" /> <img src="https://github.com/JingC123/Age-Conversion/blob/main/imgs/y2o_1y.png/" width="200px" /></div>
-
-<div align=center><img src="https://github.com/JingC123/Age-Conversion/blob/main/imgs/y2o_2o.png/" width="200px" /><img src="https://github.com/JingC123/Age-Conversion/blob/main/imgs/y2o_2y.png/" width="200px" /></div>
-
-
 
 <figure class="half">
   <table>
     <tr>
-      <td>
-        <img style="width:400px;" src="https://github.com/JingC123/Age-Conversion/blob/main/imgs/y2o_1o.png/">
+      <td align=center>
+        <img style="width:200px;" src="https://github.com/JingC123/Age-Conversion/blob/main/imgs/o2y_1o.png/" >
       </td>
-      <td>
-        <img style="width:600px;" src="https://github.com/JingC123/Age-Conversion/blob/main/imgs/y2o_1y.png/.png">
+      <td align=center>
+        <img style="width:200px;" src="https://github.com/JingC123/Age-Conversion/blob/main/imgs/o2y_1y.png/">
+      </td>
+    </tr>
+        <tr>
+      <td align=center>
+        <img style="width:200px;" src="https://github.com/JingC123/Age-Conversion/blob/main/imgs/o2y_2o.png/" >
+      </td>
+      <td align=center>
+        <img style="width:200px;" src="https://github.com/JingC123/Age-Conversion/blob/main/imgs/o2y_2y.png/">
       </td>
     </tr>
   </table>
   <figcaption>Caption describing these two images.</figcaption>
 </figure>
+
+
+
+From yound to old
+
+<figure class="half">
+  <table >
+    <tr>
+      <td align=center>
+        <img style="width:200px;" src="https://github.com/JingC123/Age-Conversion/blob/main/imgs/y2o_1y.png/" >
+      </td>
+      <td align=center>
+        <img style="width:200px;" src="https://github.com/JingC123/Age-Conversion/blob/main/imgs/y2o_1o.png/">
+      </td>
+    </tr>
+        <tr>
+      <td align=center>
+        <img style="width:200px;" src="https://github.com/JingC123/Age-Conversion/blob/main/imgs/y2o_2y.png/" >
+      </td>
+      <td align=center>
+        <img style="width:200px;" src="https://github.com/JingC123/Age-Conversion/blob/main/imgs/y2o_2o.png/">
+      </td>
+    </tr>
+  </table>
+  <figcaption>Caption describing these two images.</figcaption>
+</figure>
+
+
+
+
 
 add link:  [name](link)
 
