@@ -81,10 +81,18 @@ https://colab.research.google.com/drive/1DG3AS0c0QJbEJI2Sr1HwDxKYYDdYoTdp?usp=sh
 
 ### References
 [A clean and readable Pytorch implementation of CycleGAN](https://github.com/aitorzip/PyTorch-CycleGAN)
-Torch implementation for learning an image-to-image translation without input-output pairs
-Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks
-Understanding and Implementing CycleGAN in TensorFlow
-An introduction to Generative Adversarial Networks (with code in TensorFlow)
-A Gentle Introduction to CycleGAN for Image
-Translationmachinelearningmastery.com › what-is-cyclegan
-Understanding Generative Adversarial Networks
+
+[Torch implementation for learning an image-to-image translation without input-output pairs](https://github.com/junyanz/CycleGAN/)
+
+[Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks](https://arxiv.org/pdf/1703.10593.pdf\)
+
+[Understanding and Implementing CycleGAN in TensorFlow](https://hardikbansal.github.io/CycleGANBlog/)
+
+[An introduction to Generative Adversarial Networks (with code in TensorFlow)](https://aylien.com/blog/introduction-generative-adversarial-networks-code-tensorflow)
+
+[A Gentle Introduction to CycleGAN for Image](https://machinelearningmastery.com/what-is-cyclegan/)
+
+[Translationmachinelearningmastery.com › what-is-cyclegan](https://machinelearningmastery.com/what-is-cyclegan/)
+
+[Understanding Generative Adversarial Networks](https://naokishibuya.medium.com/understanding-generative-adversarial-networks-4dafc963f2ef#:~:text=A%20GAN%20can%20be%20trained,digit%20images%20from%20MNIST%20database.&text=A%20GAN%20has%20two%20parts,classifies%20real%20and%20fake%20images)
+
