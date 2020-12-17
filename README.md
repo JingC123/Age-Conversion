@@ -18,7 +18,6 @@ We use the dataset in Kaggle: [**facial age**](https://www.kaggle.com/frabbisw/f
   
 ### Results
 
-From old to young
 <div align=center>
 <figure class="half">
   <table>
@@ -39,12 +38,11 @@ From old to young
       </td>
     </tr>
   </table>
+  <figcaption>From old t young.</figcaption>
 </figure>
 </div>
 
-
-From yound to old
-
+<div align=center>
 <figure class="half">
   <table >
     <tr>
@@ -63,16 +61,10 @@ From yound to old
         <img style="width:200px;" src="https://github.com/JingC123/Age-Conversion/blob/main/imgs/y2o_2o.png/">
       </td>
     </tr>
+    <figcaption>From yound to old </figcaption>
   </table>
 </figure>
-
-
-
-
-
-add link:  [name](link)
-
-
+</div>
 
 
 
