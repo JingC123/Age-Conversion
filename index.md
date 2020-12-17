@@ -29,19 +29,6 @@ We do two experiments, one is reverting from young to old, and the other is reve
 
 ### Results
 
-### Examples
-
-From old to young:
-
-In the “youngify” process, we noticed that wrinkles are lightened and the skin looks better. In many cases, whitened hairs are also turned back to darker colors.
-
-From young to old:
-
-The “oldify” process is like a reverse to the previous. Wrinkles are added to the face. Hairs are whitened. The skin also looks a little more pale. We even noticed that the teeth in the pictures are also turned into a more aged condition.
-
-
-### Results
-
 We trained the model and got the generator loss near 3, the generator identity loss near 0.5, the cycle loss near 1, and discriminator loss near 0.2. The GAN loss is increasing during the training, while the discriminator loss shows a linear reduction and all other losses shows an exponential reduction.
 We used the trained model to generate several testing pictures. Some of them showed good results of age shifting, which is described in the examples section.
 
@@ -57,33 +44,47 @@ We used the trained model to generate several testing pictures. Some of them sho
 </p>
   
 <p float="center">
-  <img width="400" height="300" src="https://github.com/JingC123/Picture-Style-Transfer/blob/main/imgs/loss_D.png"/>
+  <img width="400" height="400" src="https://github.com/JingC123/Picture-Style-Transfer/blob/main/imgs/loss_D.png"/>
 </p>
 
-```markdown
-Syntax highlighted code block
+### Examples
 
-# Header 1
-## Header 2
-### Header 3
+From old to young:
+<p float="center">
+  <img width="200" height="200" src="https://github.com/JingC123/Picture-Style-Transfer/blob/main/imgs/o2y_1o.png"/>
+  <img width="200" height="200" src="https://github.com/JingC123/Picture-Style-Transfer/blob/main/imgs/o2y_1y.png"/>
+</p>
 
-- Bulleted
-- List
+<p float="center">
+  <img width="200" height="200" src="https://github.com/JingC123/Picture-Style-Transfer/blob/main/imgs/o2y_2o.png"/>
+  <img width="200" height="200" src="https://github.com/JingC123/Picture-Style-Transfer/blob/main/imgs/o2y_2y.png"/>
+</p>
 
-1. Numbered
-2. List
+In the “youngify” process, we noticed that wrinkles are lightened and the skin looks better. In many cases, whitened hairs are also turned back to darker colors.
 
-**Bold** and _Italic_ and `Code` text
+From young to old:
+<p float="center">
+  <img width="200" height="200" src="https://github.com/JingC123/Picture-Style-Transfer/blob/main/imgs/y2o_1y.png"/>
+  <img width="200" height="200" src="https://github.com/JingC123/Picture-Style-Transfer/blob/main/imgs/y2o_1o.png"/>
+</p>
 
-[Link](url) and ![Image](src)
-```
+<p float="center">
+  <img width="200" height="200" src="https://github.com/JingC123/Picture-Style-Transfer/blob/main/imgs/y2o_2y.png"/>
+  <img width="200" height="200" src="https://github.com/JingC123/Picture-Style-Transfer/blob/main/imgs/y2o_2o.png"/>
+</p>
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+The “oldify” process is like a reverse to the previous. Wrinkles are added to the face. Hairs are whitened. The skin also looks a little more pale. We even noticed that the teeth in the pictures are also turned into a more aged condition.
 
-### Jekyll Themes
+### Codes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/JingC123/Picture-Style-Transfer/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+https://colab.research.google.com/drive/1DG3AS0c0QJbEJI2Sr1HwDxKYYDdYoTdp?usp=sharing
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### References
+[A clean and readable Pytorch implementation of CycleGAN](https://github.com/aitorzip/PyTorch-CycleGAN)
+Torch implementation for learning an image-to-image translation without input-output pairs
+Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks
+Understanding and Implementing CycleGAN in TensorFlow
+An introduction to Generative Adversarial Networks (with code in TensorFlow)
+A Gentle Introduction to CycleGAN for Image
+Translationmachinelearningmastery.com › what-is-cyclegan
+Understanding Generative Adversarial Networks
