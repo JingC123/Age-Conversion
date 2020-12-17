@@ -33,29 +33,29 @@ We trained the model and got the generator loss near 3, the generator identity l
 We used the trained model to generate several testing pictures. Some of them showed good results of age shifting, which is described in the examples section.
 
 
-<p float="center">
+<p align="center">
   <img width="400" height="300" src="https://github.com/JingC123/Picture-Style-Transfer/blob/main/imgs/loss_G.png"/>
   <img width="400" height="300" src="https://github.com/JingC123/Picture-Style-Transfer/blob/main/imgs/loss_G_identity.png"/>
 </p>
   
-<p float="center">
+<p align="center">
   <img width="400" height="300" src="https://github.com/JingC123/Picture-Style-Transfer/blob/main/imgs/loss_G_GAN.png"/>
   <img width="400" height="300" src="https://github.com/JingC123/Picture-Style-Transfer/blob/main/imgs/loss_G_cycle.png"/>
 </p>
   
-<p float="center">
+<p align="center">
   <img width="400" height="400" src="https://github.com/JingC123/Picture-Style-Transfer/blob/main/imgs/loss_D.png"/>
 </p>
 
 ### Examples
 
 From old to young:
-<p float="center">
+<p align="center">
   <img width="200" height="200" src="https://github.com/JingC123/Picture-Style-Transfer/blob/main/imgs/o2y_1o.png"/>
   <img width="200" height="200" src="https://github.com/JingC123/Picture-Style-Transfer/blob/main/imgs/o2y_1y.png"/>
 </p>
 
-<p float="center">
+<p align="center">
   <img width="200" height="200" src="https://github.com/JingC123/Picture-Style-Transfer/blob/main/imgs/o2y_2o.png"/>
   <img width="200" height="200" src="https://github.com/JingC123/Picture-Style-Transfer/blob/main/imgs/o2y_2y.png"/>
 </p>
@@ -63,12 +63,12 @@ From old to young:
 In the “youngify” process, we noticed that wrinkles are lightened and the skin looks better. In many cases, whitened hairs are also turned back to darker colors.
 
 From young to old:
-<p float="center">
+<p align="center">
   <img width="200" height="200" src="https://github.com/JingC123/Picture-Style-Transfer/blob/main/imgs/y2o_1y.png"/>
   <img width="200" height="200" src="https://github.com/JingC123/Picture-Style-Transfer/blob/main/imgs/y2o_1o.png"/>
 </p>
 
-<p float="center">
+<p align="center">
   <img width="200" height="200" src="https://github.com/JingC123/Picture-Style-Transfer/blob/main/imgs/y2o_2y.png"/>
   <img width="200" height="200" src="https://github.com/JingC123/Picture-Style-Transfer/blob/main/imgs/y2o_2o.png"/>
 </p>
@@ -84,7 +84,7 @@ https://colab.research.google.com/drive/1DG3AS0c0QJbEJI2Sr1HwDxKYYDdYoTdp?usp=sh
 
 [Torch implementation for learning an image-to-image translation without input-output pairs](https://github.com/junyanz/CycleGAN/)
 
-[Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks](https://arxiv.org/pdf/1703.10593.pdf\)
+[Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks](https://arxiv.org/pdf/1703.10593.pdf)
 
 [Understanding and Implementing CycleGAN in TensorFlow](https://hardikbansal.github.io/CycleGANBlog/)
 
