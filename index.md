@@ -45,9 +45,11 @@ The “oldify” process is like a reverse to the previous. Wrinkles are added t
 We trained the model and got the generator loss near 3, the generator identity loss near 0.5, the cycle loss near 1, and discriminator loss near 0.2. The GAN loss is increasing during the training, while the discriminator loss shows a linear reduction and all other losses shows an exponential reduction.
 We used the trained model to generate several testing pictures. Some of them showed good results of age shifting, which is described in the examples section.
 
-  <figure class="half">
-  <img width="400" height="300" src="https://github.com/JingC123/Picture-Style-Transfer/blob/main/imgs/loss_G.png"/><img width="400" height="300" src="https://github.com/JingC123/Picture-Style-Transfer/blob/main/imgs/loss_G_identity.png"/>
-</figure>
+
+  <p float="half">
+  <img width="400" height="300" src="https://github.com/JingC123/Picture-Style-Transfer/blob/main/imgs/loss_G.png"/>
+  <img width="400" height="300" src="https://github.com/JingC123/Picture-Style-Transfer/blob/main/imgs/loss_G_identity.png"/>
+</p>
   
   <figure class="half"><img width="400" height="300" src="https://github.com/JingC123/Picture-Style-Transfer/blob/main/imgs/loss_G_GAN.png"/><img width="400" height="300" src="https://github.com/JingC123/Picture-Style-Transfer/blob/main/imgs/loss_G_cycle.png"/></figure>
   
