@@ -1,5 +1,6 @@
 ## Implementing CycleGAN for Age Conversion
-
+### Video
+<video src="demo.mov" width="320" height="200" controls preload></video>
 ### Abstract
 
 In this project, our goal is to learn an unpaired image-to-image translation and predict what people look like decades later or before. Our model contains two mappings F: A->B and G: B->A. Given an image from domain A, we introduce a forward cycle consistency loss: A ≈ G(F(A)) and the other way around. 
